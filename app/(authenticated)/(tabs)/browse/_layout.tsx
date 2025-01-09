@@ -24,6 +24,13 @@ const Layout = () => {
           headerRight: () => <HeaderRight />,
         }}
       />
+      <Stack.Screen
+        name="new-project"
+        options={{
+          presentation: "modal",
+          headerShown: false,
+        }}
+      />
     </Stack>
   );
 };

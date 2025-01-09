@@ -16,6 +16,7 @@ import { format } from "date-fns";
 import { Todo } from "@/types/interfaces";
 import TaskRow from "@/components/TaskRow";
 import { Colors } from "@/constants/Colors";
+import { useSafeAreaInsets } from "react-native-safe-area-context";
 
 interface Section {
   title: string;
@@ -33,8 +34,9 @@ const Page = () => {
       .leftJoin(projects, eq(todos.project_id, projects.id))
       .where(eq(todos.completed, 0))
   );
+  console.log("JKS", data);
   const [sectionListData, setSectionListData] = useState<Section[]>([]);
-
+  const { top } = useSafeAreaInsets();
   useEffect(() => {
     const formatedData = data?.map((item) => ({
       ...item.todos,
@@ -77,7 +79,7 @@ const Page = () => {
   }, [data]);
 
   return (
-    <View style={styles.container}>
+    <View style={[styles.container, { marginTop: top + 20 }]}>
       <SectionList
         showsVerticalScrollIndicator={false}
         contentInsetAdjustmentBehavior="automatic"

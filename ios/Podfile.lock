@@ -1591,6 +1591,27 @@ PODS:
     - ReactCommon/turbomodule/bridging
     - ReactCommon/turbomodule/core
     - Yoga
+  - react-native-mmkv (3.2.0):
+    - DoubleConversion
+    - glog
+    - hermes-engine
+    - RCT-Folly (= 2024.01.01.00)
+    - RCTRequired
+    - RCTTypeSafety
+    - React-Core
+    - React-debug
+    - React-Fabric
+    - React-featureflags
+    - React-graphics
+    - React-ImageManager
+    - React-NativeModulesApple
+    - React-RCTFabric
+    - React-rendererdebug
+    - React-utils
+    - ReactCodegen
+    - ReactCommon/turbomodule/bridging
+    - ReactCommon/turbomodule/core
+    - Yoga
   - react-native-safe-area-context (4.12.0):
     - DoubleConversion
     - glog
@@ -1954,6 +1975,27 @@ PODS:
     - ComputableLayout (~> 0.7)
     - DGSwiftUtilities (~> 0.27)
     - ExpoModulesCore
+  - RNDateTimePicker (8.2.0):
+    - DoubleConversion
+    - glog
+    - hermes-engine
+    - RCT-Folly (= 2024.01.01.00)
+    - RCTRequired
+    - RCTTypeSafety
+    - React-Core
+    - React-debug
+    - React-Fabric
+    - React-featureflags
+    - React-graphics
+    - React-ImageManager
+    - React-NativeModulesApple
+    - React-RCTFabric
+    - React-rendererdebug
+    - React-utils
+    - ReactCodegen
+    - ReactCommon/turbomodule/bridging
+    - ReactCommon/turbomodule/core
+    - Yoga
   - RNGestureHandler (2.20.2):
     - DoubleConversion
     - glog
@@ -2226,6 +2268,7 @@ DEPENDENCIES:
   - React-microtasksnativemodule (from `../node_modules/react-native/ReactCommon/react/nativemodule/microtasks`)
   - react-native-bottom-tabs (from `../node_modules/react-native-bottom-tabs`)
   - "react-native-menu (from `../node_modules/@react-native-menu/menu`)"
+  - react-native-mmkv (from `../node_modules/react-native-mmkv`)
   - react-native-safe-area-context (from `../node_modules/react-native-safe-area-context`)
   - react-native-webview (from `../node_modules/react-native-webview`)
   - React-nativeconfig (from `../node_modules/react-native/ReactCommon`)
@@ -2257,6 +2300,7 @@ DEPENDENCIES:
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
   - ReactNativeIosContextMenu (from `../node_modules/react-native-ios-context-menu`)
   - ReactNativeIosUtilities (from `../node_modules/react-native-ios-utilities`)
+  - "RNDateTimePicker (from `../node_modules/@react-native-community/datetimepicker`)"
   - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
   - RNReanimated (from `../node_modules/react-native-reanimated`)
   - RNScreens (from `../node_modules/react-native-screens`)
@@ -2403,6 +2447,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-bottom-tabs"
   react-native-menu:
     :path: "../node_modules/@react-native-menu/menu"
+  react-native-mmkv:
+    :path: "../node_modules/react-native-mmkv"
   react-native-safe-area-context:
     :path: "../node_modules/react-native-safe-area-context"
   react-native-webview:
@@ -2465,6 +2511,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-ios-context-menu"
   ReactNativeIosUtilities:
     :path: "../node_modules/react-native-ios-utilities"
+  RNDateTimePicker:
+    :path: "../node_modules/@react-native-community/datetimepicker"
   RNGestureHandler:
     :path: "../node_modules/react-native-gesture-handler"
   RNReanimated:
@@ -2544,6 +2592,7 @@ SPEC CHECKSUMS:
   React-microtasksnativemodule: 23565fc14a9588c3116cdf279c8124d7285856cc
   react-native-bottom-tabs: cf0b7d65781674d8e2d82fd3fb006e1a49d46015
   react-native-menu: 41e3600b7a1adaf8381ca8fa215272c127aac473
+  react-native-mmkv: 06e9d60d65e0247703327ecca58c91c46b6e5b86
   react-native-safe-area-context: db6ad47f9354809886d34e349a0809b0580712ea
   react-native-webview: 7ca4d79f6a79f011a85417ee0957bf5bbbe0889b
   React-nativeconfig: 565ebf4340d9ede95b523f0e3640f48286985ef5
@@ -2575,6 +2624,7 @@ SPEC CHECKSUMS:
   ReactCommon: 7da12c0f59956995a153de45835b64c89e0a4a57
   ReactNativeIosContextMenu: 116a1993b5fd6dc9f8cf703c32f47e8bcc22a618
   ReactNativeIosUtilities: 66f47ba72a6caf132da8c8e61090de6e5e364beb
+  RNDateTimePicker: dd58d8235c3d12d349c043c2d9bcedcbb513f106
   RNGestureHandler: 1e33ee267aaf61bbab6089d32df3b38c3024e3dd
   RNReanimated: fb3896d9010787799eb5748e50fd59746a503001
   RNScreens: f5762e2dd74e365dcee2007dc96942a528ac25d4
